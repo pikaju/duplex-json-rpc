@@ -1,0 +1,23 @@
+{
+  "name": "example",
+  "description": "Example project for the JSON-RPC library.",
+  "private": true,
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/duplex.ts",
+    "build": "tsc",
+    "format": "eslint --fix --fix-type layout .",
+    "lint": "eslint --no-fix ."
+  },
+  "dependencies": {
+    "@types/ws": "^7.4.0",
+    "duplex-json-rpc": "file:../",
+    "ws": "^7.4.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^7.15.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.4"
+  }
+}

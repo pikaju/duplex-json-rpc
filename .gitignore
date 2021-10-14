@@ -1,0 +1,12 @@
+# Dependency directories
+node_modules/
+
+# Build directories
+dist/
+
+# Test coverage reports
+.nyc_output
+coverage/
+
+# Error logs
+yarn-error.log
