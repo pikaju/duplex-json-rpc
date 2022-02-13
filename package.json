@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Transport layer independent JSON-RPC library with calls in both directions.",
   "license": "MIT",
-  "author": "Julien Scholz <julien.scholz@sotax.com>",
+  "author": "Julien Scholz <julienscholzo@hotmail.de>",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
