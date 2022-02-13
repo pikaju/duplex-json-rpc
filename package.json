@@ -1,7 +1,15 @@
 {
   "name": "duplex-json-rpc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Transport layer independent JSON-RPC library with calls in both directions.",
+  "keywords": [
+    "jsonrpc",
+    "duplex",
+    "bidirectional",
+    "transport",
+    "independent",
+    "websocket"
+  ],
   "license": "MIT",
   "author": "Julien Scholz <julienscholzo@hotmail.de>",
   "main": "./dist/index.js",
